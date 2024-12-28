@@ -1,0 +1,15 @@
+/* .body {
+    @apply h-screen flex justify-center items-center;
+} */
+
+.container {
+    @apply  bg-primary-500 h-full mb-4;
+}
+
+/* .imgContainer {
+    @apply w-1/2 flex justify-center;
+}
+
+.svg {
+    @apply w-4/5;
+} */

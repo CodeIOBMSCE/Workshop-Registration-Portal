@@ -1,0 +1,26 @@
+.card {
+    @apply w-56 h-64 bg-primary-400 rounded-2xl shadow-2xl p-4 overflow-hidden;
+}
+
+.card-title {
+    @apply text-2xl font-bold;
+}
+
+.card-content {
+    @apply text-base text-gray-700 leading-6;
+}
+
+.card-button {
+    @apply inline-block px-4 py-2 bg-blue-500 text-white rounded-md no-underline transition duration-300 ease-in-out;
+}
+
+.card-button:hover {
+    @apply bg-blue-700;
+}
+.image {
+    @apply flex justify-center items-center object-cover h-28 w-full mb-3;
+    aspect-ratio: 1/1; /* Corrected aspect ratio syntax */
+}
+
+
+   

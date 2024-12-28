@@ -1,0 +1,8 @@
+/* Styles for the individual event cards */
+
+/* Add more styles as needed */
+
+.events{
+    @apply p-8 m-0;
+}
+

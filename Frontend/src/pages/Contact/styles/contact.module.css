@@ -1,0 +1,26 @@
+.container {
+    @apply max-w-4xl mx-auto p-20;
+}
+
+.title {
+    @apply text-2xl font-bold text-gray-800;
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    @apply text-base  leading-6 mb-8;
+}
+
+.image {
+    @apply w-full max-w-2xl h-auto mb-8;
+}
+
+.link {
+    @apply text-blue-500 no-underline;
+}
+
+.link:hover {
+    @apply underline;
+}
